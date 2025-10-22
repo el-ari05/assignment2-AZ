@@ -1,8 +1,9 @@
 #This is the code for assignment 2
 
 require(ggplot2)
+require(dplyr)
 
-penguin <- read.csv("C:/Users/arian/OneDrive - wesleyan.edu/4 QAC 380/penguins.csv")
+penguin <- read.csv("C:/Users/arian/Documents/GitHub/assignment2-AZ/penguins.csv")
 
 table(penguin$sex)
 summary(penguin$body_mass_g)
@@ -24,3 +25,4 @@ summary_species <- penguin %>%
     mean_flipper_length_mm = mean(flipper_length_mm, na.rm = TRUE),
     mean_body_mass_g = mean(body_mass_g, na.rm = TRUE)
   )
+
