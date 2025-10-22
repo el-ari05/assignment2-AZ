@@ -22,3 +22,16 @@ female   male
 
    Adelie Chinstrap    Gentoo 
       152        68       124 
+
+
+
+
+   ## To collaborate with Arian
+
+   I created a separate branch where I completed my work 
+
+   Added my code to his R script to provide summary statistics by species
+
+   Edited this README
+
+   Uploaded everything to be approved by Arian in Github
