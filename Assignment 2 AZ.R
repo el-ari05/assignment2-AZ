@@ -6,3 +6,4 @@ table(penguin$sex)
 summary(penguin$body_mass_g)
 summary(penguin$bill_length_mm)
 
+table(penguin$species)
